@@ -33,72 +33,6 @@ function removeOpacity(event) {
 }
 
 
-// long version of getProductInfo
-
-
-// function getProductInfo(paintColor) {
-//     let price;
-//     let colorName;
-
-//     switch (paintColor) {
-//         case 'pn1':
-//             price = '$19.99'
-//             colorName = 'Lime Green';
-//             updatePrice(colorName, price);
-//             // set variables for price and color name and invoke a function to update the price
-//             break;
-//         case 'pn2':
-//             price = '$11.14';
-//             colorName = 'Medium Brown';
-//             updatePrice(colorName, price);
-//             // set variables for price and color name and invoke a function to update the price
-//             break;
-//         case 'pn3':
-//             price = '$22.99';
-//             colorName = 'Royal Blue';
-//             updatePrice(colorName, price);
-//             // set variables for price and color name and invoke a function to update the price
-//             break;
-//         case 'pn4':
-//             price = '4.99';
-//             colorName = 'Solid Black';
-//             updatePrice(colorName, price);
-//             // set variables for price and color name and invoke a function to update the price
-//             break;
-//         case 'pn5':
-//             price = '$8.22';
-//             colorName = 'Solid Cyan';
-//             updatePrice(colorName, price);
-//             // set variables for price and color name and invoke a function to update the price
-//             break;
-//         case 'pn6':
-//             price = '$11.99';
-//             colorName = 'Solid Purple';
-//             updatePrice(colorName, price);
-//             // set variables for price and color name and invoke a function to update the price
-//             break;
-//         case 'pn7':
-//             price = '$13.42';
-//             colorName = 'Solid Red';
-//             updatePrice(colorName, price);
-//             // set variables for price and color name and invoke a function to update the price
-//             break;
-//         case 'pn8':
-//             price = '$21.98';
-//             colorName = 'Solid White';
-//             updatePrice(colorName, price);
-//             // set variables for price and color name and invoke a function to update the price
-//             break;
-//         case 'pn9':
-//             price = '$14.99';
-//             colorName = 'Solid Yellow';
-//             updatePrice(colorName, price);
-//             // set variables for price and color name and invoke a function to update the price
-//             break;
-//         default:
-//     }
-
-
 // obj literal/shorter version of getProductInfo  
 
 function getProductInfo(paintColor) {
@@ -106,11 +40,12 @@ function getProductInfo(paintColor) {
         'pn1': { price: '$19.99', name: 'Lime Green' },
         'pn2': { price: '$11.14', name: 'Medium Brown' },
         'pn3': { price: '$22.99', name: 'Royal Blue' },
-        'pn4': { price: '$4.99', name: 'Solid Black' },
-        'pn5': { price: '$8.22', name: 'Solid Cyan' },
-        'pn6': { price: '$11.99', name: 'Solid Purple' },
-        'pn7': { price: '$13.42', name: 'Solid Red' },
-        'pn8': { price: '$21.98', name: 'Solid White' },
+        'pn4': { price: '$13.42', name: 'Solid Red' },
+        'pn5': { price: '$21.98', name: 'Solid White' },
+        'pn6': { price: '$4.99', name: 'Solid Black' },
+        'pn7': { price: '$8.22', name: 'Solid Cyan' },
+        'pn8': { price: '$11.99', name: 'Solid Purple' },
+        'pn9': { price: '$14.19', name: 'Solid Yellow' },
 
     };
 
