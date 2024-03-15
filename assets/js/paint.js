@@ -37,7 +37,7 @@ function removeOpacity(event) {
 
 function getProductInfo(paintColor) {
     const colorInfo = {
-        'pn1': { price: '$19.99', name: 'Lime Green' },
+        'pn1': { price: '$14.99', name: 'Lime Green' },
         'pn2': { price: '$11.14', name: 'Medium Brown' },
         'pn3': { price: '$22.99', name: 'Royal Blue' },
         'pn4': { price: '$13.42', name: 'Solid Red' },
@@ -45,7 +45,7 @@ function getProductInfo(paintColor) {
         'pn6': { price: '$4.99', name: 'Solid Black' },
         'pn7': { price: '$8.22', name: 'Solid Cyan' },
         'pn8': { price: '$11.99', name: 'Solid Purple' },
-        'pn9': { price: '$14.19', name: 'Solid Yellow' },
+        'pn9': { price: '$14.99', name: 'Solid Yellow' },
 
     };
 
